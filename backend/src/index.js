@@ -3,6 +3,7 @@ const app = express();
 const PORT = process.env.PORT || 3005;
 
 // Middleware para procesar JSON
+// Add this line to test
 app.use(express.json());
 
 // Endpoint GET para la raíz
