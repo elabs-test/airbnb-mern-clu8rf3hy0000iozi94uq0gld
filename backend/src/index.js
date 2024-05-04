@@ -12,7 +12,7 @@ app.use(express.json());
 
 // Endpoint GET para la raíz
 app.get('/api/hola', (req, res) => {
-  res.json({ message: 'hola'});
+  res.json({ message: 'holaa'});
 });
 
 // Endpoint GET para obtener una lista de elementos
