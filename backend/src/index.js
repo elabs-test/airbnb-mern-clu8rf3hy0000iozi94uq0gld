@@ -11,6 +11,7 @@ const PORT = process.env.PORT || 3005;
 app.use(express.json());
 
 // Endpoint GET para la raíz
+// Endpoint GET para la raíz
 app.get('/api/hola', (req, res) => {
   res.json({ message: 'hola'});
 });
